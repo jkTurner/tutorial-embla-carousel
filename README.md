@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Embla Carousel Setup (Next.js 15)
 
-## Getting Started
+This project demonstrates how to implement **Embla Carousel**, a lightweight and extensible slider library, in a modern **Next.js 15** app. Through progressive examples, you’ll learn how to integrate Embla, organize your components, and add useful features like arrow controls and dot navigation.
 
-First, run the development server:
+## What This Project Covers
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Installing and initializing Embla Carousel in a Next.js project
+- Creating a basic slider with static content
+- Separating slide content into reusable components
+- Adding arrow navigation with `emblaApi.scrollPrev()` and `scrollNext()`
+- Adding dot indicators with dynamic selection tracking
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Each example builds on the last, providing a scalable pattern you can apply in real-world use cases such as image galleries, featured products, or portfolio sliders.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Full Tutorial
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This repo is part of the **Dev Steps Tutorials** series by Jakkrit Turner.  
+View the full guide here:
 
-## Learn More
+**[Embla Carousel Setup on jkturner.site](http://jkturner.site/tutorials/ui-enhancements/embla-setup)**
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 15.3.3
+- Embla Carousel 8.6.0
+- Tailwind CSS 4
